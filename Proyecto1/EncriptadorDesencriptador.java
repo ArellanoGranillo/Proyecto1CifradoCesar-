@@ -15,7 +15,7 @@ public class EncriptadorDesencriptador {
 
     public EncriptadorDesencriptador(String textoLeido, int claveDeDesplazamiento) {
 
-        this.textoLeido = textoLeido;
+        this.textoLeido = textoLeido.toLowerCase();
         this.claveDeDesplazamiento= claveDeDesplazamiento;
 
     }
